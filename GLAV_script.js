@@ -84,14 +84,12 @@ document.addEventListener('DOMContentLoaded', function() {
     updateCartCount();
     const productCatalog = document.getElementById('productCatalog');
 
-    // Пример данных о товарах (замените их своими)
     const products = [
         { name: 'KUUGO', price: 53000, image: 'GLAV_img/kuugo m4/M4Pro-1-1200x800.jpg' },
         { name: 'MOTION', price: 48000, image: 'GLAV_img/Motion L8/motion_l8_elektrosamokat_skladnoy.webp' },
         { name: 'NINEBOT', price: 63000, image: 'GLAV_img/ninebot air/91d51d57a27a5d0f1d2db189415064c1.jpg' }
     ];
 
-    // Генерация карточек товаров
     products.forEach(product => {
         const card = document.createElement('div');
         card.classList.add('card');
