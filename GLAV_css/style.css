@@ -645,94 +645,6 @@ border-radius: 300px;
   display: inline;
 }
 
-@media (max-width: 800px) {
-  .basement-copy {
-    font-size: 3vh;
-  }
-  .logo_name{
-    font-size: 6vh; 
-  }
-  .accordion-icon {
-    font-size: 3vh;
-  }
-  .modal-content {
-    width: 95%;
-  }
-  .container {
-    display: none;
-  }
-  .basement {
-    margin-top: 200px;
-  }
-  .photos-box-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .photos-box-1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .accordion-item {
-    background: #FFECBC;
-    border-radius: 30px;
-    width: 98%;
-    margin-bottom: 10px;
-  }
-}
-@media (max-width: 500px) {
-  html,
-  body, input,
-  textarea, p, .slide-p, .basement-p, .modal {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    color: #0B295F;
-  }
-  button, .nav-a, .tabs-nav-btn, .tabs-nav-btn.active, .filter-button, .accordion-header, .slide-name, .basement-h, .modal p {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    color: #0B295F;
-  }
-  h1 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 45px;
-    color: #0B295F;
-  }
-  .header-image {
-    width: 90%;
-    height: 90%;
-    margin: 0 auto;
-    margin-top: 80px;
-  }
-  .modal-content {
-    padding: 20px;
-  }
-  .modal-content p {
-    display: none;
-  }
-  .close {
-    display: none;
-  }
-}
-
 header{
   display: block;
   background-color: #FFC511;
@@ -814,4 +726,98 @@ header{
 #cartSummary button:active{
   scale: 95%;
   background-color: #99750a;
+}
+
+@media (max-width: 800px) {
+  .basement-copy {
+    font-size: 3vw;
+  }
+  .basement-p{
+    font-size: 3vw;
+  }
+  .accordion-header{
+    font-size: 4vw;
+  }
+  .logo_name{
+    font-size: 5vw; 
+  }
+  .accordion-icon {
+    font-size: 3vw;
+  }
+  .modal-content {
+    width: 95%;
+  }
+  .container {
+    display: none;
+  }
+  .basement {
+    margin-top: 200px;
+  }
+  .photos-box-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .photos-box-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .accordion-item {
+    background: #FFECBC;
+    border-radius: 30px;
+    width: 98%;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 500px) {
+  html,
+  body, input,
+  textarea, p, .slide-p, .basement-p, .modal {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #0B295F;
+  }
+  button, .nav-a, .tabs-nav-btn, .tabs-nav-btn.active, .filter-button, .accordion-header, .slide-name, .basement-h, .modal p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0B295F;
+  }
+  h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #0B295F;
+  }
+  .header-image {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  .modal-content {
+    padding: 20px;
+  }
+  .modal-content p {
+    display: none;
+  }
+  .close {
+    display: none;
+  }
 }
