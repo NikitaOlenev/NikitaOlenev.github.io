@@ -130,9 +130,6 @@ document.addEventListener('DOMContentLoaded', function () {
   totalPriceElement.textContent = totalPrice;
 
   updateCartCount();
-
-  
-  clearCartButton.addEventListener('click', clearCart);
 });
 
 
